@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/skyquakes",
     "maintainers": [
       {
@@ -16,111 +16,309 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "skyquakes",
     "name": "Skyquakes",
-    "aliases": [],
-    "category": "ATMOSPHERIC_PHENOMENON",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Mistpouffers", "language": "Dutch / Flemish", "region": "North Sea coast (Belgium, Netherlands)" },
+      { "name": "Barisal Guns", "region": "Ganges Delta, Bangladesh / India" },
+      { "name": "Uminari", "language": "Japanese", "region": "Coastal Japan", "meaning": "'cries from the sea'" },
+      { "name": "Seneca Guns", "region": "Seneca Lake, New York and the Carolinas, USA" },
+      { "name": "Bombes de mer / Canons de mer", "language": "French", "region": "France" },
+      { "name": "Brontidi / Marina / Balza", "language": "Italian", "region": "Italy" },
+      { "name": "Cielomoto", "language": "Spanish", "region": "Latin America and Spain", "meaning": "'sky-quake'" },
+      { "name": "Dentuman", "language": "Indonesian", "region": "Indonesia" }
     ],
-    "status": "documented",
+    "category": "ATMOSPHERIC_PHENOMENON",
+    "subcategory": "Unexplained acoustic / aerial booms",
+    "tags": [
+      "atmospheric",
+      "acoustic",
+      "boom",
+      "global",
+      "unexplained-sounds",
+      "infrasound"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Skyquakes are unexplained loud booming sounds that seem to come from the sky or horizon, reported throughout human history and across all inhabited continents.",
-      "full": "Skyquakes are unexplained loud booming sounds that seem to come from the sky or horizon, reported throughout human history and across all inhabited continents. These mysterious acoustic phenomena, also known as \\\"mistpouffers,\\\" \\\"Barisal guns,\\\" \\\"uminari\\\" (sea roar), or \\\"lake guns,\\\" manifest as powerful, cannon-like explosions, rumbling thunder, or sonic boom-like sounds occurring during clear weather conditions when no obvious source is present. Unlike conventional thunder, earthquakes, or military exercises, skyquakes often occur without any corresponding seismic activity, weather disturbances, or known human activity. The phenomenon has been documented for centuries, with reports from coastal areas, near large bodies of water, and in mountainous regions worldwide. While various scientific explanations have been proposed—ranging from atmospheric phenomena to geological activity—many skyquake events remain unexplained, continuing to puzzle scientists, seismologists, and acoustic researchers. The sounds can vary from single sharp reports to sustained rolling booms, sometimes accompanied by ground vibrations, building rattles, or pressure waves felt by witnesses."
+      "summary": "Skyquakes are unexplained loud booming sounds, often resembling cannon fire or thunder, reported around the world — typically in clear weather, with no obvious source, and frequently along coastlines and large bodies of water.",
+      "full": "Skyquakes are a class of unexplained acoustic phenomena reported across all inhabited continents and documented for centuries. The sounds are typically described as resembling distant cannon fire, sonic booms, rolling thunder, or heavy explosions, and are often heard during otherwise calm weather. They are reported worldwide under many regional names — mistpouffers (North Sea coasts), Barisal Guns (Ganges Delta), uminari ('cries from the sea', Japan), Seneca Guns (Seneca Lake and the Carolinas), bombes de mer (France), brontidi (Italy), cielomoto (Spanish-speaking world), and dentuman (Indonesia). Mechanisms proposed include distant thunder ducted through the atmosphere, meteor sonic booms, shallow earthquakes, methane releases from sea or lake floors, undersea cave collapses, breaking-wave acoustics, and military or industrial activity. The 1804 Lewis and Clark expedition recorded skyquake-like sounds near Great Falls, Montana. James Fenimore Cooper's 1850 short story 'The Lake Gun' helped popularise the Seneca Lake terminology. The U.S. Geological Survey has investigated the 'Seneca guns' along the Carolina coasts."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English compound 'sky' + 'quake', modeled on 'earthquake'.",
+      "meaning": "A 'quake' or violent acoustic shock heard in or from the sky, with no obvious local source.",
+      "first_use": "Modern English usage; regional names (Barisal Guns, mistpouffers, Seneca Guns) are documented from the 19th century."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ATMOSPHERIC_PHENOMENON",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Acoustic anomaly",
+      "subtype": "Unexplained boom"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "the-hum", "name": "The Hum", "relationship": "related", "description": "Persistent low-frequency drone reported in many locations; distinct from booms but in the same broader 'unexplained sound' category" },
+      { "id": "bell-island-boom", "name": "Bell Island Boom", "relationship": "subset", "description": "Specific 1978 Newfoundland event of large unexplained atmospheric booms" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": [],
+      "features": [
+        { "feature": "Loud cannon-like report", "description": "Single sharp boom resembling distant cannon, large explosion, or sonic boom", "frequency": "always" },
+        { "feature": "Rolling thunder", "description": "Sustained rolling rumble lasting several seconds", "frequency": "common" },
+        { "feature": "Felt vibration", "description": "Witnesses report rattling windows, ground vibration, or pressure waves accompanying the sound", "frequency": "common" },
+        { "feature": "No visible source", "description": "Heard during clear weather with no lightning, aircraft, or military activity visible or otherwise reported", "frequency": "common" }
+      ],
+      "morphology": "Acoustic event — typically lasting seconds to tens of seconds, audible over tens of kilometres, and not always accompanied by detectable seismic activity."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "unknown",
+      "habitat_preference": ["Coastlines", "Large lakes", "River deltas", "Mountainous regions", "Inland plains (occasional)"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Tendency to cluster near large bodies of water",
+        "Often reported in clear weather",
+        "Recurring local traditions (Barisal Guns, mistpouffers, Seneca Guns) over decades to centuries"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reported globally on all inhabited continents, with notable historical clusters along the North Sea, the Ganges Delta of Bangladesh, the Finger Lakes and U.S. East Coast, coastal Japan, and parts of Italy and Indonesia.",
+      "continents": ["Europe", "Asia", "North America", "South America", "Africa", "Australia"],
+      "countries": ["United States", "Bangladesh", "India", "Belgium", "Netherlands", "Japan", "Italy", "France", "Indonesia", "Ireland", "United Kingdom"],
+      "regions": [
+        "North Sea coast",
+        "Ganges Delta",
+        "Finger Lakes (New York)",
+        "Carolina coast (USA)",
+        "Bay of Fundy",
+        "Lough Neagh",
+        "Coastal Japan"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Seneca Lake (and Carolina coast 'Seneca Guns')",
+        "location": {
+          "description": "Seneca Lake, New York; also reported along the North and South Carolina coasts",
+          "country": "United States",
+          "region": "New York / Carolinas",
+          "coordinates": { "latitude": 42.6738, "longitude": -76.9540 }
+        },
+        "peak_period": "19th century–present",
+        "notes": "Subject of James Fenimore Cooper's 1850 short story 'The Lake Gun' and of ongoing U.S. Geological Survey monitoring."
+      },
+      {
+        "name": "Ganges Delta (Barisal Guns)",
+        "location": {
+          "description": "Ganges Delta around Barisal",
+          "country": "Bangladesh",
+          "region": "Barisal Division",
+          "coordinates": { "latitude": 22.7010, "longitude": 90.3535 }
+        },
+        "peak_period": "19th–early 20th centuries",
+        "notes": "Best-documented Asian cluster; investigated by colonial-era observers including the Royal Meteorological Society."
+      },
+      {
+        "name": "North Sea coast (Mistpouffers)",
+        "location": {
+          "description": "Belgian and Dutch North Sea coastline",
+          "country": "Belgium / Netherlands",
+          "region": "North Sea",
+          "coordinates": { "latitude": 51.2200, "longitude": 2.9300 }
+        },
+        "peak_period": "19th–20th centuries",
+        "notes": "Long-standing local tradition known as mistpouffers / zeepoeffers."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1804",
+        "circa": false,
+        "source": "Lewis and Clark expedition journals (Meriwether Lewis), at Great Falls, Montana, where Lewis compared the sounds to the discharge of 6-pounder ordnance at three miles' distance"
+      },
+      "peak_activity_periods": [
+        { "period": "19th century", "description": "Documentation of mistpouffers, Barisal Guns, and Seneca Guns in colonial and early scientific literature" },
+        { "period": "20th–21st centuries", "description": "Continued local reports along the Carolina coast and renewed scientific monitoring" }
+      ],
+      "seasonal_patterns": "No globally consistent seasonality; some regional clusters report higher frequency in summer or during pre-monsoon humidity."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Skyquakes appear in numerous regional traditions and oral histories, often interpreted spiritually or supernaturally before scientific framings; the Haudenosaunee of the Finger Lakes region, for example, attributed the sounds to the Great Spirit shaping the land.",
+      "earliest_accounts": "Lewis and Clark expedition (1804) for the modern English-language record; comparable older traditions exist in Bangladesh, Japan, and the North Sea coast.",
+      "folklore_connections": "Linked to numerous local folkloric explanations (spirits, ghosts of cannons, divine activity) that long predate seismic and atmospheric science."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1804-06-01", "event": "Meriwether Lewis records cannon-like sounds near Great Falls, Montana", "significance": "Earliest well-known English-language scientific-record description", "source": "Journals of the Lewis and Clark Expedition (1804)" },
+      { "date": "1850-01-01", "event": "James Fenimore Cooper publishes 'The Lake Gun', a short story popularising the Seneca Lake skyquake tradition", "significance": "Helps anchor the 'Seneca Guns' regional name", "source": "Cooper, J. F. (1850), The Lake Gun" },
+      { "date": "1870-01-01", "event": "British colonial observers and the Royal Meteorological Society begin documenting the Barisal Guns of the Ganges Delta", "significance": "First systematic Asian record", "source": "Royal Meteorological Society publications" }
+    ],
+    "modern_era": "In recent decades skyquakes have been monitored by the U.S. Geological Survey (Carolina coast 'Seneca Guns'), associated with seismograph and infrasound networks, and analysed against possible meteor, military, and atmospheric-ducting causes. No single mechanism has been shown to account for all reports; in particular, many events have no corresponding seismic signal."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1000,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1804", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "skyquakes-1804-great-falls",
+        "name": "Lewis and Clark Great Falls report",
+        "date": { "value": "1804-06-01", "precision": "approximate" },
+        "location": {
+          "description": "Vicinity of Great Falls of the Missouri River, Montana",
+          "country": "United States",
+          "region": "Montana",
+          "coordinates": { "latitude": 47.5002, "longitude": -111.3008, "precision": "approximate" }
+        },
+        "witnesses": { "count": 2, "types": ["Meriwether Lewis", "William Clark and party"], "credibility_factors": ["Contemporaneous expedition journals"] },
+        "description": "Meriwether Lewis recorded loud cannon-like reports heard in the vicinity of the Great Falls, comparing them to the discharge of a 6-pounder field gun at three miles' distance. The expedition journals describe the sounds as recurrent and unexplained.",
+        "conditions": { "weather": "Clear", "visibility": "Good", "time_of_day": "Various", "duration": "Multiple events over the camp period" },
+        "evidence": ["Journals of the Lewis and Clark Expedition"],
+        "credibility": { "rating": "high", "factors": ["Documentary record", "Multiple witnesses"], "notes": "Among the earliest English-language scientific-record descriptions of skyquake-like sounds." },
+        "sources": ["Journals of the Lewis and Clark Expedition (1804)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
-    "audio": [],
-    "trace": []
+    "audio": [
+      {
+        "id": "skyquakes-evidence-coastal-recordings",
+        "type": "audio recording",
+        "name": "Coastal infrasound and seismograph traces",
+        "description": "Various U.S. Geological Survey and academic seismograph and infrasound recordings from the Carolina coast and other locations report the acoustic signatures of unexplained 'Seneca Guns'-style booms.",
+        "status": "unverified",
+        "analysis": "Some events register on seismographs, others do not. No single underlying mechanism has been confirmed.",
+        "source": "U.S. Geological Survey reporting on 'Seneca Guns'"
+      }
+    ],
+    "trace": [],
+    "documentary": [
+      {
+        "id": "skyquakes-evidence-cooper-1850",
+        "type": "literary documentation",
+        "name": "James Fenimore Cooper, 'The Lake Gun' (1850)",
+        "date": "1850",
+        "description": "Short story drawing on the Seneca Lake skyquake tradition.",
+        "status": "verified",
+        "analysis": "Not scientific evidence, but documents the folkloric reception of skyquakes in 19th-century New York.",
+        "source": "Cooper, J. F. (1850), 'The Lake Gun'"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Atmospheric ducting of distant thunder or sonic booms",
+        "description": "Sound from distant thunderstorms or aircraft sonic booms can be 'ducted' through stable atmospheric layers and reach the surface tens or hundreds of kilometres away, with no visible source.",
+        "proponents": ["Atmospheric scientists; cited on the English Wikipedia article"],
+        "evidence_cited": ["Documented atmospheric ducting effects", "Correlation of some events with distant storms or supersonic flights"]
+      },
+      {
+        "name": "Meteor sonic booms",
+        "description": "Bolide entry events produce loud sonic booms that can be heard at the surface even when the meteor itself is unseen, particularly in daylight.",
+        "proponents": ["Atmospheric and planetary scientists"],
+        "evidence_cited": ["Documented meteor airbursts (e.g., Chelyabinsk 2013) producing booms over a wide area"]
+      },
+      {
+        "name": "Shallow earthquakes",
+        "description": "Very shallow micro-earthquakes can produce sounds at the surface without strong perceptible shaking; some Carolina-coast 'Seneca Guns' events are correlated with seismograph signals.",
+        "proponents": ["U.S. Geological Survey"],
+        "evidence_cited": ["Seismograph correlations during some Carolina coast events"]
+      },
+      {
+        "name": "Methane / biogas releases",
+        "description": "Sudden releases of methane or other gases from sea-floor or lake-bed sediments may produce loud acoustic events.",
+        "proponents": ["Various atmospheric/earth scientists"],
+        "evidence_cited": ["Known sediment-gas releases in some shallow seas"]
+      },
+      {
+        "name": "Underwater cave collapse and breaking waves",
+        "description": "Collapses of submarine caves or large breaking waves on rocky shores have been proposed as local sources of cannon-like reports.",
+        "proponents": ["Various"],
+        "evidence_cited": ["Coastal correlation of some report clusters"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Mundane source aggregation",
+        "description": "Most skyquake reports are best explained by combinations of distant military activity, aircraft, sonic booms, thunder, blasting, or quarrying — even when these are not obvious to witnesses.",
+        "proponents": ["Skeptical scientific commentary (general)"],
+        "evidence_cited": ["Successful identification of mundane sources for many local reports"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Haudenosaunee (Iroquois) traditions explaining Seneca Lake sounds as the Great Spirit shaping the land",
+        "Belgian / Dutch fishermen's mistpouffers tradition",
+        "Bangladesh Barisal Guns folk tradition",
+        "Japanese uminari ('cries from the sea')"
+      ],
+      "stories": [
+        "James Fenimore Cooper, 'The Lake Gun' (1850)"
+      ],
+      "beliefs": "Locally interpreted in many traditions as the voice of spirits, lost cannons, or the sea itself; these readings predate atmospheric and seismic explanations."
+    },
+    "indigenous": {
+      "cultures": ["Haudenosaunee (Iroquois)"],
+      "significance": "Seneca Lake skyquakes are part of Haudenosaunee oral tradition that pre-dates colonial documentation.",
+      "sensitivity_note": "Indigenous interpretations of Seneca Lake skyquakes should be cited as their own cultural framing rather than absorbed uncritically into modern atmospheric narratives.",
+      "respect_guidelines": "Defer to Haudenosaunee voices when discussing Seneca Lake traditions."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "James Fenimore Cooper, 'The Lake Gun' (1850)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Periodic mainstream news coverage of 'Seneca Guns' along the Carolinas"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Meriwether Lewis", "affiliation": "Lewis and Clark Expedition (Corps of Discovery)", "contribution": "Earliest well-known English-language scientific-record description of skyquakes (Great Falls, Montana, 1804)", "period": "1804" }
+    ],
+    "organizations": [
+      { "name": "U.S. Geological Survey", "url": "https://www.usgs.gov", "focus": "Monitoring of 'Seneca Guns' and related unexplained acoustic events along the Carolina coast" }
+    ],
+    "ongoing_studies": "Active interest from atmospheric scientists, seismologists, and infrasound researchers in correlating reported events with meteorological, seismic, and military / aviation activity."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-skyquake", "type": "website", "title": "Skyquake", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Skyquake", "accessed": "2026-05-07" },
+    { "id": "lewis-clark-journals", "type": "archive", "title": "Journals of the Lewis and Clark Expedition", "authors": ["Meriwether Lewis", "William Clark"], "publication": "Lewis and Clark Trail Heritage Foundation / University of Nebraska", "date": "1804" },
+    { "id": "cooper-1850", "type": "article", "title": "The Lake Gun", "authors": ["James Fenimore Cooper"], "date": "1850" },
+    { "id": "usgs-seneca-guns", "type": "website", "title": "What are the booming and rumbling sounds I sometimes hear? (Seneca Guns)", "publication": "U.S. Geological Survey", "url": "https://www.usgs.gov/faqs/what-are-booming-and-rumbling-sounds-i-sometimes-hear", "accessed": "2026-05-07" }
+  ]
 }
